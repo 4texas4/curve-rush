@@ -1,5 +1,6 @@
-# Important Notice About File Placement
+# Hosting Notice
 
-If you're trying to host this game on GitHub Pages, **the game must be placed in the root directory** of your repository.  
+Even though this game is completely static, it **cannot be hosted in a subfolder on GitHub Pages**.  
 
-**Do NOT** put the game in a subfolder like:  
+The reason is that `game.txt` and `setting.txt` are hardcoded to load from the **root directory**:  
+
